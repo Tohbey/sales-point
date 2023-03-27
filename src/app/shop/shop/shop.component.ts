@@ -20,11 +20,11 @@ export class ShopComponent1 implements OnInit {
   paginationConfig:any = {};
   isLogo: boolean = false;
   logo!: Assest;
-  @ViewChild("logoFileUploader", /* TODO: add static flag */ { read: ElementRef }) 
+  @ViewChild("logoFileUploader", /* TODO: add static flag */ { read: ElementRef })
   logoUploader!: ElementRef;
   document:Assest[] = [];
   isDocument: boolean = false;
-  @ViewChild("documentFileUploader", /* TODO: add static flag */ { read: ElementRef }) 
+  @ViewChild("documentFileUploader", /* TODO: add static flag */ { read: ElementRef })
   documentUploader!: ElementRef;
   allowedMimeType: any[] = ['image/png', 'image/jpeg'];
   base64File: any;

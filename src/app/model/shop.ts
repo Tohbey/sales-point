@@ -14,10 +14,10 @@ export class Shop {
   name!: String;
   description!: String;
   address!: String;
+  logo!: Assest;
   postCode!: String;
   approvalStatus!: String;
-  certificates!: Assest[];
-  logo!: Assest;
+  certificates!: Assest[]
   createdAt!: Date;
   updatedAt!: Date;
 }
